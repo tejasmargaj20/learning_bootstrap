@@ -1,0 +1,25 @@
+.bg-green {
+    background-color: #505955;
+    color: black;
+}
+
+
+.bg-color {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue
+}
+
+.border_nav:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.nav-link:hover {
+    color: #24ff02;
+
+}
+
+.nav-link {
+    color: black
+}
