@@ -1,3 +1,33 @@
+/* ========================================
+   GENERAL
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-bg {
+    background-color: rgb(254, 246, 235);
+}
+
+
+/* ========================================
+   NAVBAR
+======================================== */
+
 .bg-color {
     background-color: rgb(120, 216, 216);
 }
@@ -6,29 +36,27 @@
     width: 100px;
     height: 60px;
     border-radius: 10px;
-}
-
-.btn-color {
-    background-color: #FFC107;
-    border: 1px solid black;
-}
-
-.btn_hover:hover {
-    color: black;
-    background-color: #DA9100;
+    object-fit: contain;
 }
 
 
+/* Navbar links */
 
-.area:hover {
-    border: 2px solid black;
-    background-color: rgb(241, 238, 238);
+.nav-link {
+    color: #043927 !important;
+    font-weight: 500;
+    margin: 3px;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
-.area {
-    border: 1px solid black;
-    border-radius: 7px;
+.nav-link:hover {
+    color: black !important;
+    background-color: rgb(230, 173, 42);
 }
+
+
+/* Active link */
 
 .bg_color_1 {
     background-color: rgb(230, 173, 42);
@@ -36,14 +64,72 @@
     box-shadow: 0px 2px 2px rgb(81, 80, 84);
 }
 
-.align {
-    align-items: center;
+
+/* Mobile navbar button */
+
+.navbar-toggler {
+    border: 2px solid #043927;
 }
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* ========================================
+   SEARCH + LOGIN
+======================================== */
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.area {
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.area:hover {
+    border: 2px solid black;
+    background-color: rgb(241, 238, 238);
+}
+
+
+/* Search button */
+
+.btn-color {
+    background-color: #FFC107;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+.btn_hover:hover {
+    color: black;
+    background-color: #DA9100;
+}
+
+.login-link {
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   SLIDER
+======================================== */
 
 .slider {
     width: 100%;
     height: 500px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 .border_slider {
@@ -51,31 +137,339 @@
     box-shadow: 2px 2px 2px gray;
 }
 
-.main-bg {
-    background-color: #F0FAF8;
+
+/* ========================================
+   ABOUT SECTION
+======================================== */
+
+.about-logo {
+    width: 220px;
+    max-width: 80%;
+    border-radius: 10px;
 }
 
 .text-col {
     color: #043927;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
-.card {
-    width: 250px;
-    border-radius: 15px;
+
+/* Paragraph */
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
+
+/*Image*/
+
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* ========================================
+   PRODUCTS
+======================================== */
+
+.bg-prod {
+    background-color: rgb(246, 235, 215);
+    padding-top: 1px;
+}
+
+
+/* Card */
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: rgb(247, 149, 114)
+}
+
+/* Card hover */
 
 .c_hover:hover {
     background-color: rgb(227, 225, 225);
-    box-shadow: 1px 2px 1px #816bc1;
-
+    box-shadow: 1px 2px 8px #816bc1;
 }
 
-.bg-prod {
-    background-color: rgb(209, 235, 255);
 
+/* Product image */
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
 }
+
+
+/* Product paragraph */
+
+.card-text {
+    font-size: 16px;
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
 
 .footer_bg {
     background-color: rgb(120, 216, 216);
+}
+
+.footer-logo {
+    width: 200px;
+    max-width: 100%;
+}
+
+footer a {
+    color: #043927;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #DA9100;
+    text-decoration: underline;
+}
+
+
+/* ========================================
+   TABLET
+   768px - 991px
+======================================== */
+
+@media (max-width: 991.98px) {
+
+
+    /* Navbar */
+
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .nav-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    /* Search */
+
+    .search-form {
+        width: 100%;
+    }
+
+    .area {
+        width: 100%;
+        min-width: 0;
+    }
+
+
+    /* Login */
+
+    .login-link {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* Slider */
+
+    .slider {
+        height: 350px;
+    }
+
+
+    /* About logo */
+
+    .about-logo {
+        width: 180px;
+    }
+
+}
+
+
+/* ========================================
+   MOBILE
+   Below 768px
+======================================== */
+
+@media (max-width: 767.98px) {
+
+
+    /* Navbar logo */
+
+    .logo {
+        width: 90px;
+        height: 55px;
+    }
+
+
+    /* Navbar links */
+
+    .nav-link {
+        padding: 8px 12px;
+    }
+
+
+    /* Slider */
+
+    .slider {
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .border_slider {
+        box-shadow: none;
+    }
+
+
+    /* About */
+
+    .about-section {
+        padding: 10px 0;
+    }
+
+    .about-logo {
+        width: 160px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .text-col {
+        font-size: 24px;
+    }
+
+
+    /* Products */
+
+    .bg-prod h3 {
+        font-size: 22px;
+    }
+
+    .product-img {
+        height: 180px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+
+    /* Footer */
+
+    .footer_bg {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 160px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+
+/* ========================================
+   SMALL MOBILE
+   Below 576px
+======================================== */
+
+@media (max-width: 575.98px) {
+
+
+    /* Container */
+
+    .container-fluid {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    /* Logo */
+
+    .logo {
+        width: 80px;
+        height: 50px;
+    }
+
+
+    /* Search */
+
+    .search-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .area {
+        width: 100%;
+        height: 42px;
+    }
+
+    .search-form .btn {
+        width: 100%;
+        height: 42px;
+    }
+
+
+    /* Slider */
+
+    .slider {
+        height: 180px;
+    }
+
+
+    /* About */
+
+    .text-col {
+        font-size: 22px;
+    }
+
+    .about-section p {
+        font-size: 15px;
+    }
+
+
+    /* Product */
+
+    .product-img {
+        height: 200px;
+    }
+
+
+    /* Footer */
+
+    .footer_bg {
+        padding: 25px 15px !important;
+    }
+
+    footer h5 {
+        margin-top: 10px;
+    }
+
+}
+
+.histort-bg-color {
+
+    background-color: #fadfa8;
 }
