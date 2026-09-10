@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link href="css/index.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -71,9 +73,9 @@
                     </ul>
                     <form class="d-flex" role="search">
 
-                        <input class="form-contl me-2 area" type="search" placeholder="Search For Product"
+                        <input class="form-contl me-2 area " type="search" placeholder="Search For Product"
                             aria-label="Search" />
-                        <button class="btn btn-color btn_hover" type="submit">Search</button>
+                        <button class="btn btn-color btn_hover " type="submit">Search</button>
                         <div class="nav-item">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -89,405 +91,300 @@
     </header>
 
     <main>
-        <section class="bg-prod">
 
+        <section class=" container-fluid bg-prod">
             <div>
 
-                <hr>
+                <div class="container prod_border">
+                    <section class="bg-prod">
+                        <div class="container-fluid">
 
-                <h3 class="mt-4 mb-2 p-2">
-                    Fruits Section
-                </h3>
-
-
-                <div class="container">
-
-                    <div class="row g-4">
-
-
-                        <!-- Apple -->
-
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                            <div class="card c_hover p-2 border mb-4 h-100">
-
-                                <img src="images/apples_1.png" class="card-img-top product-img" alt="Apple">
-
-                                <div class="card-body d-flex flex-column">
-
-                                    <h5 class="card-title">
-                                        Apple
-                                    </h5>
-
-                                    <p class="card-text">
-                                        Fresh, crisp, and juicy apples
-                                        packed with natural sweetness.
-                                    </p>
-
-                                    <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                        View Product
-                                    </a>
-
+                            <!-- Fruits -->
+                            <div class="product-section">
+                                <div class="section-title">
+                                    <h3>Fruits</h3>
+                                    <a href="fruits_vegies.html">View More --></a>
                                 </div>
 
+                                <div class="product-row">
+                                    <div class="product-card c_hover">
+                                        <img src="images/apples_1.png" class="product-img" alt="Apple">
+                                        <h5>Fresh Apple</h5>
+                                        <p class="rating">⭐ 4.5 (128 Reviews)</p>
+                                        <p class="price">₹180 <span>₹220</span> <b>18% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#apple">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/mangos-3.jpeg" class="product-img" alt="Mango">
+                                        <h5>Fresh Mango</h5>
+                                        <p class="rating">⭐ 4.6 (156 Reviews)</p>
+                                        <p class="price">₹120 <span>₹150</span> <b>20% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/kiwi_2.jpg" class="product-img" alt="Kiwi">
+                                        <h5>Fresh Kiwi</h5>
+                                        <p class="rating">⭐ 4.4 (98 Reviews)</p>
+                                        <p class="price">₹240 <span>₹280</span> <b>14% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 500 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/orange.jpeg" class="product-img" alt="Orange">
+                                        <h5>Fresh Orange</h5>
+                                        <p class="rating">⭐ 4.5 (112 Reviews)</p>
+                                        <p class="price">₹90 <span>₹110</span> <b>18% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Pomogranate.jpeg" class="product-img" alt="Pomegranate">
+                                        <h5>Fresh Pomegranate</h5>
+                                        <p class="rating">⭐ 4.7 (143 Reviews)</p>
+                                        <p class="price">₹160 <span>₹190</span> <b>16% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Vegetables -->
+                            <div class="product-section">
+                                <div class="section-title">
+                                    <h3>Vegetables</h3>
+                                    <a href="fruits_vegies.html">View More --></a>
+                                </div>
+
+                                <div class="product-row">
+                                    <div class="product-card c_hover">
+                                        <img src="Images/tomatos.jpeg" class="product-img" alt="Tomato">
+                                        <h5>Fresh Tomato</h5>
+                                        <p class="rating">⭐ 4.5 (132 Reviews)</p>
+                                        <p class="price">₹40 <span>₹50</span> <b>20% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Potatos.jpeg" class="product-img" alt="Potato">
+                                        <h5>Fresh Potato</h5>
+                                        <p class="rating">⭐ 4.6 (145 Reviews)</p>
+                                        <p class="price">₹35 <span>₹45</span> <b>22% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Onion.jpeg" class="product-img" alt="Onion">
+                                        <h5>Fresh Onion</h5>
+                                        <p class="rating">⭐ 4.4 (121 Reviews)</p>
+                                        <p class="price">₹45 <span>₹55</span> <b>18% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Carrot.jpeg" class="product-img" alt="Carrot">
+                                        <h5>Fresh Carrot</h5>
+                                        <p class="rating">⭐ 4.5 (105 Reviews)</p>
+                                        <p class="price">₹55 <span>₹70</span> <b>21% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 kg</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Broccoli.jpeg" class="product-img" alt="Broccoli">
+                                        <h5>Fresh Broccoli</h5>
+                                        <p class="rating">⭐ 4.7 (87 Reviews)</p>
+                                        <p class="price">₹80 <span>₹100</span> <b>20% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 500 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Milk Products -->
+                            <div class="product-section">
+                                <div class="section-title">
+                                    <h3>Milk Products</h3>
+                                    <a href="dairy_eggs.html">View More --></a>
+                                </div>
+
+                                <div class="product-row">
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Cow Milk.jpeg" class="product-img" alt="Milk">
+                                        <h5>Fresh Cow Milk</h5>
+                                        <p class="rating">⭐ 4.6 (210 Reviews)</p>
+                                        <p class="price">₹65 <span>₹70</span> <b>7% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 1 L</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Curd.jpeg" class="product-img" alt="Curd">
+                                        <h5>Fresh Curd</h5>
+                                        <p class="rating">⭐ 4.5 (176 Reviews)</p>
+                                        <p class="price">₹55 <span>₹65</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 500 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Cheese Slices.jpeg" class="product-img" alt="Cheese">
+                                        <h5>Cheese Slices</h5>
+                                        <p class="rating">⭐ 4.7 (134 Reviews)</p>
+                                        <p class="price">₹125 <span>₹150</span> <b>17% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 200 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Butter.jpeg" class="product-img" alt="Butter">
+                                        <h5>Fresh Butter</h5>
+                                        <p class="rating">⭐ 4.6 (119 Reviews)</p>
+                                        <p class="price">₹58 <span>₹65</span> <b>11% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 100 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Fresh Paneer.jpeg" class="product-img" alt="Paneer">
+                                        <h5>Fresh Paneer</h5>
+                                        <p class="rating">⭐ 4.8 (189 Reviews)</p>
+                                        <p class="price">₹110 <span>₹130</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 200 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Spices -->
+                            <div class="product-section">
+                                <div class="section-title">
+                                    <h3>Spices</h3>
+                                    <a href="spices.html">View More --></a>
+                                </div>
+
+                                <div class="product-row">
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Turmeric Powder.jpeg" class="product-img" alt="Turmeric">
+                                        <h5>Turmeric Powder</h5>
+                                        <p class="rating">⭐ 4.6 (145 Reviews)</p>
+                                        <p class="price">₹75 <span>₹90</span> <b>17% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 200 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Red Chilli Powder.jpeg" class="product-img" alt="Red Chilli">
+                                        <h5>Red Chilli Powder</h5>
+                                        <p class="rating">⭐ 4.5 (126 Reviews)</p>
+                                        <p class="price">₹85 <span>₹100</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 200 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Cumin Seeds.jpeg" class="product-img" alt="Cumin">
+                                        <h5>Cumin Seeds</h5>
+                                        <p class="rating">⭐ 4.7 (98 Reviews)</p>
+                                        <p class="price">₹95 <span>₹110</span> <b>14% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 200 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Black Pepper.jpeg" class="product-img" alt="Black Pepper">
+                                        <h5>Black Pepper</h5>
+                                        <p class="rating">⭐ 4.8 (112 Reviews)</p>
+                                        <p class="price">₹145 <span>₹170</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 100 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Garam Masala.jpeg" class="product-img" alt="Garam Masala">
+                                        <h5>Garam Masala</h5>
+                                        <p class="rating">⭐ 4.7 (154 Reviews)</p>
+                                        <p class="price">₹90 <span>₹110</span> <b>18% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 100 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Frozen Food -->
+                            <div class="product-section">
+                                <div class="section-title">
+                                    <h3>Frozen Food</h3>
+                                    <a href="frozen.html">View More --></a>
+                                </div>
+
+                                <div class="product-row">
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Frozen Green Peas.jpeg" class="product-img" alt="Frozen Peas">
+                                        <h5>Frozen Green Peas</h5>
+                                        <p class="rating">⭐ 4.6 (98 Reviews)</p>
+                                        <p class="price">₹110 <span>₹130</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 500 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Frozen French Fries.jpeg" class="product-img"
+                                            alt="French Fries">
+                                        <h5>Frozen French Fries</h5>
+                                        <p class="rating">⭐ 4.7 (167 Reviews)</p>
+                                        <p class="price">₹145 <span>₹170</span> <b>15% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 500 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Frozen Samosa.jpeg" class="product-img" alt="Frozen Samosa">
+                                        <h5>Frozen Samosa</h5>
+                                        <p class="rating">⭐ 4.5 (103 Reviews)</p>
+                                        <p class="price">₹120 <span>₹145</span> <b>17% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 400 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Frozen Veg Pizza.jpeg" class="product-img" alt="Frozen Pizza">
+                                        <h5>Frozen Veg Pizza</h5>
+                                        <p class="rating">⭐ 4.6 (142 Reviews)</p>
+                                        <p class="price">₹180 <span>₹220</span> <b>18% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 300 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+
+                                    <div class="product-card c_hover">
+                                        <img src="Images/Frozen Veg Nuggets.jpeg" class="product-img" alt="Veg Nuggets">
+                                        <h5>Frozen Veg Nuggets</h5>
+                                        <p class="rating">⭐ 4.7 (126 Reviews)</p>
+                                        <p class="price">₹155 <span>₹185</span> <b>16% OFF</b></p>
+                                        <p class="quantity">Net Quantity: 400 g</p>
+                                        <button type="button" class="btn btn-primary">Add To Basket</button>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
+                    </section>
+                    <!--  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=   FOOTER  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=   -->
 
 
-                        <!-- Mango -->
-
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                            <div class="card c_hover p-2 border mb-4 h-100">
-
-                                <img src="images/mangos-3.jpeg" class="card-img-top product-img" alt="Mango">
-
-                                <div class="card-body d-flex flex-column">
-
-                                    <h5 class="card-title">
-                                        Mangos
-                                    </h5>
-
-                                    <p class="card-text">
-                                        Sweet and juicy mangoes with a
-                                        delicious tropical flavor.
-                                    </p>
-
-                                    <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                        View Product
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- Kiwi -->
-
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                            <div class="card c_hover p-2 border mb-4 h-100">
-
-                                <img src="images/kiwi_2.jpg" class="card-img-top product-img" alt="Kiwi">
-
-                                <div class="card-body d-flex flex-column">
-
-                                    <h5 class="card-title">
-                                        Kiwi
-                                    </h5>
-
-                                    <p class="card-text">
-                                        Fresh & tangy kiwi with a
-                                        refreshing taste.
-                                    </p>
-
-                                    <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                        View Product
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- Apple -->
-
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                            <div class="card c_hover p-2 border mb-4 h-100">
-
-                                <img src="images/apples_1.png" class="card-img-top product-img" alt="Apple">
-
-                                <div class="card-body d-flex flex-column">
-
-                                    <h5 class="card-title">
-                                        Apple
-                                    </h5>
-
-                                    <p class="card-text">
-                                        Fresh, crisp, and juicy apples
-                                        packed with natural sweetness.
-                                    </p>
-
-                                    <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                        View Product
-                                    </a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
 
                 </div>
+        </section>
 
-                <!-- ================= Vegetables ================= -->
-
-
-
-                <section class="bg-prod">
-
-                    <div>
-
-                        <hr>
-
-                        <h3 class="mt-4 mb-2 p-2">
-                            Vegetables Section
-                        </h3>
-
-
-                        <div class="container">
-
-                            <div class="row g-4">
-
-
-                                <!-- Apple -->
-
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                                    <div class="card c_hover p-2 border mb-4 h-100">
-
-                                        <img src="images/apples_1.png" class="card-img-top product-img" alt="Apple">
-
-                                        <div class="card-body d-flex flex-column">
-
-                                            <h5 class="card-title">
-                                                Apple
-                                            </h5>
-
-                                            <p class="card-text">
-                                                Fresh, crisp, and juicy apples
-                                                packed with natural sweetness.
-                                            </p>
-
-                                            <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                                View Product
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <!-- Mango -->
-
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                                    <div class="card c_hover p-2 border mb-4 h-100">
-
-                                        <img src="images/mangos-3.jpeg" class="card-img-top product-img" alt="Mango">
-
-                                        <div class="card-body d-flex flex-column">
-
-                                            <h5 class="card-title">
-                                                Mangos
-                                            </h5>
-
-                                            <p class="card-text">
-                                                Sweet and juicy mangoes with a
-                                                delicious tropical flavor.
-                                            </p>
-
-                                            <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                                View Product
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <!-- Kiwi -->
-
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                                    <div class="card c_hover p-2 border mb-4 h-100">
-
-                                        <img src="images/kiwi_2.jpg" class="card-img-top product-img" alt="Kiwi">
-
-                                        <div class="card-body d-flex flex-column">
-
-                                            <h5 class="card-title">
-                                                Kiwi
-                                            </h5>
-
-                                            <p class="card-text">
-                                                Fresh & tangy kiwi with a
-                                                refreshing taste.
-                                            </p>
-
-                                            <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                                View Product
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <!-- Apple -->
-
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-
-                                    <div class="card c_hover p-2 border mb-4 h-100">
-
-                                        <img src="images/apples_1.png" class="card-img-top product-img" alt="Apple">
-
-                                        <div class="card-body d-flex flex-column">
-
-                                            <h5 class="card-title">
-                                                Apple
-                                            </h5>
-
-                                            <p class="card-text">
-                                                Fresh, crisp, and juicy apples
-                                                packed with natural sweetness.
-                                            </p>
-
-                                            <a href="fruits_vegeis.html" class="btn btn-primary mt-auto">
-                                                View Product
-                                            </a>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-
-
-                        <!-- ================= FOOTER ================= -->
-
-                        <footer>
-
-                            <div class="container-fluid mt-4 p-4 footer_bg">
-
-                                <div class="row g-4">
-
-
-                                    <!-- About -->
-
-                                    <div class="col-12 col-sm-6 col-md-3">
-
-                                        <img src="images/logo_3.png" alt="Grovia Logo" class="img-fluid footer-logo">
-
-                                        <h6 class="font-monospace">
-                                            About Grovia
-                                        </h6>
-
-                                        <p class="fw-normal">
-                                            Fresh Groceries, Happy Life<br>
-                                            Fresh groceries, easy shopping.
-                                        </p>
-
-                                        <p>
-                                            &copy; Grovia 2026 All Rights Reserved.
-                                        </p>
-
-                                    </div>
-
-
-                                    <!-- Quick Links -->
-
-                                    <div class="col-12 col-sm-6 col-md-3 mt-4">
-
-                                        <h5>
-                                            Quick Links
-                                        </h5>
-
-                                        <a href="login.html">Log In</a><br>
-                                        <a href="index.html">Home</a><br>
-                                        <a href="category.html">Category</a><br>
-                                        <a href="shop.html">Shop</a><br>
-                                        <a href="deals_and_offers.html">
-                                            Deals & Offers
-                                        </a><br>
-                                        <a href="about.html">About</a><br>
-                                        <a href="contact.html">Contact</a>
-
-                                    </div>
-
-
-                                    <!-- Address -->
-
-                                    <div class="col-12 col-sm-6 col-md-3 mt-4">
-
-                                        <h5>
-                                            Address
-                                        </h5>
-
-                                        <p>
-                                            Pune, Pimpri-Chinchwad, Akrudi
-                                            <br>
-                                            Chowk, Maharashtra
-                                            <br>
-                                            411254
-                                        </p>
-
-                                        <h6>
-                                            Location On Google Maps
-                                        </h6>
-
-                                        <a href="https://maps.app.goo.gl/uKdk3tE8tC76kfeY9" target="_blank">
-                                            View Location
-                                        </a>
-
-                                    </div>
-
-
-                                    <!-- Contact -->
-
-                                    <div class="col-12 col-sm-6 col-md-3 mt-4">
-
-                                        <h5>
-                                            Contact Us
-                                        </h5>
-
-                                        <p>
-                                            📍 Pune, Maharashtra, India
-                                        </p>
-
-                                        <p>
-                                            📞 +91 98765 43210
-                                        </p>
-
-                                        <p>
-                                            📧 support@grovia.com
-                                        </p>
-
-                                        <p>
-                                            🌐 Facebook | Instagram | YouTube
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </footer>
-
-                    </div>
-
-                </section>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
