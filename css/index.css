@@ -135,7 +135,7 @@ body {
 .border_slider {
     border: 1px solid black;
     box-shadow: 2px 2px 2px gray;
-    border-radius: 0px 0px 40px 0px;
+    border-radius: 0px 0px 40px 40px;
 }
 
 
@@ -178,6 +178,11 @@ p {
 /* =-=-=-=-=-=-=-=-==-==-===-==-===-==-=-====-=-=-=-=-=-=-=--=-=-=-=-=-=-===-=-=-=-=-=-=--=-=
    PRODUCTS
 =-=-=-=-=-=-=-=-==-==-===-==-===-==-=-====-=-=-=-=-=-=-=--=-=-=-=-=-=-===-=-=-=-=-=-=--=-= */
+
+
+.bg-prod-con {
+    background-color: rgb(232, 242, 251);
+}
 
 .bg-prod {
     background-color: rgb(246, 235, 215);
@@ -575,4 +580,21 @@ footer a:hover {
 
 .histort-bg-color {
     background-color: #fadfa8;
+}
+
+.card-header {
+
+    background-color: rgb(97, 177, 243);
+    color: black;
+}
+
+.btn-color {
+    background-color: rgb(220, 221, 223);
+    color: black;
+}
+
+.btn-color:hover {
+    background-color: rgb(158, 159, 160);
+    color: black;
+    border: 1px solid rgb(53, 53, 53);
 }

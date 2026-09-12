@@ -18,13 +18,13 @@
 
 </head>
 
-<body>
+<body class="body">
     <header>
         <nav class="navbar navbar-expand-lg bg-color ">
 
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo_3.png" alt="Logo" width="30" height="24"
+                    <img src="Images/logo_3.png" alt="Logo" width="30" height="24"
                         class="d-inline-block align-text-top logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,36 +71,38 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <div class="nav-right">
 
-                        <input class="form-contl me-2 area " type="search" placeholder="Search For Product"
-                            aria-label="Search" />
-                        <button class="btn btn-color btn_hover " type="submit">Search</button>
-                        <div class="nav-item">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link p-2" href="login.html"> 👤 Log In
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
+                        <form class="search-form" role="search">
+                            <input class="form-control area" type="search" placeholder="Search For Product"
+                                aria-label="Search">
+
+                            <button class="btn btn-color btn_hover" type="submit">
+                                Search
+                            </button>
+                        </form>
+
+                        <a class="nav-link login-link p-2" href="login.html">
+                            <i class="bi bi-person-fill"></i> Log In
+                        </a>
+
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
+    <main class="main-bg">
 
-        <section class=" container-fluid bg-prod">
+        <section class=" container-fluid ">
             <div>
 
                 <div class="container prod_border">
-                    <section class="bg-prod">
+                    <section class="">
                         <div class="container-fluid">
 
                             <!-- Fruits -->
-                            <div class="product-section">
+                            <div class="product-section bg-prod-con margin">
                                 <div class="section-title">
                                     <h3>Fruits</h3>
                                     <a href="fruits_vegies.html">View More --></a>
@@ -108,7 +110,7 @@
 
                                 <div class="product-row">
                                     <div class="product-card c_hover">
-                                        <img src="images/apples_1.png" class="product-img" alt="Apple">
+                                        <img src="Images/apples_1.png" class="product-img" alt="Apple">
                                         <h5>Fresh Apple</h5>
                                         <p class="rating">⭐ 4.5 (128 Reviews)</p>
                                         <p class="price">₹180 <span>₹220</span> <b>18% OFF</b></p>
@@ -383,6 +385,89 @@
 
 
                 </div>
+        </section>
+
+        <section>
+
+            <footer>
+                <div class="container-fluid footer_bg">
+
+                    <div class="row">
+
+                        <!-- About -->
+                        <div class="col-12 col-sm-6 col-md-3">
+
+                            <img src="images/logo_3.png" alt="Grovia Logo" class="img-fluid footer-logo">
+
+                            <h6 class="font-monospace">
+                                About Grovia
+                            </h6>
+
+                            <p class="fw-normal">
+                                Fresh Groceries, Happy Life<br>
+                                Fresh groceries, easy shopping.
+                            </p>
+
+                            <p>
+                                &copy; Grovia 2026 All Rights Reserved.
+                            </p>
+
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="col-12 col-sm-6 col-md-3 mt-4">
+
+                            <h5>Quick Links</h5>
+
+                            <a href="login.html">Log In</a><br>
+                            <a href="index.html">Home</a><br>
+                            <a href="category.html">Category</a><br>
+                            <a href="shop.html">Shop</a><br>
+
+                            <a href="deals_and_offers.html">
+                                Deals & Offers
+                            </a><br>
+
+                            <a href="about.html">About</a><br>
+                            <a href="contact.html">Contact</a>
+
+                        </div>
+
+                        <!-- Address -->
+                        <div class="col-12 col-sm-6 col-md-3 mt-4">
+
+                            <h5>Address</h5>
+
+                            <p>
+                                Pune, Pimpri-Chinchwad, Akrudi<br>
+                                Chowk, Maharashtra<br>
+                                411254
+                            </p>
+
+                            <h6>Location On Google Maps</h6>
+
+                            <a href="https://maps.app.goo.gl/uKdk3tE8tC76kfeY9" target="_blank">
+                                View Location
+                            </a>
+
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="col-12 col-sm-6 col-md-3 mt-4">
+
+                            <h5>Contact Us</h5>
+
+                            <p>📍 Pune, Maharashtra, India</p>
+                            <p>📞 +91 98765 43210</p>
+                            <p>📧 support@grovia.com</p>
+                            <p>🌐 Facebook | Instagram | YouTube</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
         </section>
 
 
