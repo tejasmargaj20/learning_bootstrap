@@ -43,7 +43,7 @@ body {
 /* Navbar links */
 
 .nav-link {
-    color: #043927 !important;
+    color: #000000 !important;
     font-weight: 500;
     margin: 3px;
     border-radius: 10px;
@@ -52,7 +52,7 @@ body {
 
 .nav-link:hover {
     color: black !important;
-    background-color: rgb(230, 173, 42);
+    background-color: rgb(240, 178, 32);
 }
 
 
@@ -181,7 +181,8 @@ p {
 
 
 .bg-prod-con {
-    background-color: rgb(232, 242, 251);
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
 }
 
 .bg-prod {
